@@ -28,7 +28,7 @@
 }
 
 .parallaxPic {
-    background-image: url("./pics/Derek Desk.jpg");
+    background-image: url("../pics/Derek Desk.jpg");
     min-height: 350px;
     /* filter: grayscale(.3); */
 }
