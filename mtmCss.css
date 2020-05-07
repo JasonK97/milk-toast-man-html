@@ -1,0 +1,94 @@
+/*CSS Styling Code Here*/
+
+#headerLogo {
+    border: 3px solid black;
+    border-radius: 50%;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headerLinks {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.hLinks {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+
+.parallaxPic {
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxPic {
+    background-image: url("./pics/Derek Desk.jpg");
+    min-height: 350px;
+    /* filter: grayscale(.3); */
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 62%;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.caption span.title {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 60px;
+    font-family: 'Overpass', sans-serif;
+    text-align: left;
+    margin-left: 150px;
+    text-shadow: 6px 5px 4px rgb(24, 24, 24);
+}
+
+.caption span.sub-title {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Overpass', sans-serif;
+    text-align: left;
+    margin-left: 150px;
+    text-shadow: 6px 5px 4px rgb(24, 24, 24);
+}
+
+#quotePic {
+    float: left;
+    height: 400px;
+    overflow: auto;
+}
+
+#quote {
+    margin: 25px 10px 25px 10px;
+}
+
+#quoteText {
+    font-size: 32px;
+    background-color: rgb(172, 242, 255);
+    padding: 100px 100px 175px 675px;
+    font-family: 'Didact Gothic', sans-serif;
+    text-shadow: 5px 5px 10px rgb(75, 75, 75);
+}
+
+#video {
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+}
+
+#footerText {
+    text-decoration: none;
+    font-family: 'Overpass', sans-serif;
+    color: black;
+}
