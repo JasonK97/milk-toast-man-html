@@ -209,10 +209,7 @@ iframe {
     }
     
     .inputAreas {
-        font-family: 'Overpass', sans-serif;
-        padding: 10px 5px 10px 5px;
-        border-radius: 5px;
-        border: 2px solid gray;
+        size: 25;
     }
     
 }
