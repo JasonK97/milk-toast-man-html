@@ -126,7 +126,12 @@ iframe {
 @media screen and (max-width: 1000px) {    
     .parallaxPic {
         min-height: 450px;
-        background-position: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;  
+        position: fixed;
+        width: 100%;
     }
 
     .caption {
