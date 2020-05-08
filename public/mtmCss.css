@@ -103,6 +103,7 @@ iframe {
     color: black;
 }
 
+/*Higher Resolution Screens*/
 @media screen and (min-width: 1800px) {    
     .parallaxPic {
         min-height: 450px;
@@ -123,6 +124,8 @@ iframe {
     }
 }
 
+
+/*Mobile Devices*/
 @media screen and (max-width: 1000px) {    
     .parallaxPic {
         min-height: 275px;
