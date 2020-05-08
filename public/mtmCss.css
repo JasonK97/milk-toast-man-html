@@ -93,6 +93,11 @@ iframe {
     left: 15%;
 }
 
+#contactInfo {
+    background-color: rgb(172, 242, 255);
+    margin: 50px 50px 50px 50px;
+}
+
 #footer {
     text-align: center;
 }
