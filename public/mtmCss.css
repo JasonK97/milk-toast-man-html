@@ -30,7 +30,6 @@
 .parallaxPic {
     background-image: url("./pics/Derek Desk.jpg");
     min-height: 350px;
-    /* filter: grayscale(.3); */
 }
 
 .caption {
@@ -80,7 +79,18 @@
 }
 
 #video {
-    text-align: center;
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+iframe {
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
 }
 
 #footer {
@@ -91,4 +101,55 @@
     text-decoration: none;
     font-family: 'Overpass', sans-serif;
     color: black;
+}
+
+@media screen and (min-width: 1800px) {    
+    .parallaxPic {
+        min-height: 450px;
+    }
+
+    .caption {
+        top: 50%;
+    }
+
+    #quotePic {
+        float: left;
+        height: 600px;
+        overflow: auto;
+    }
+
+    #quoteText {
+        padding: 150px 100px 320px 1000px;
+    }
+}
+
+@media screen and (max-width: 1000px) {    
+    .parallaxPic {
+        min-height: 450px;
+    }
+
+    .caption {
+        top: 50%;
+        text-align: center;
+    }
+
+    .caption span.title {
+        padding: 10px;
+        margin-left: 5px;
+    }
+    
+    .caption span.sub-title {
+        padding: 15px;
+        margin-left: 10px;
+    }
+
+    #quotePic {
+        float: left;
+        width: 100%;
+        overflow: auto;
+    }
+
+    #quoteText {
+        padding: 350px 100px 100px 100px;
+    }
 }
