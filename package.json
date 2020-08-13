@@ -1,7 +1,7 @@
 {
-  "name": "kentddcreatornode",
+  "name": "milktoastmanwebsite",
   "version": "1.0.0",
-  "description": "Dungeons and Dragons Character Creator",
+  "description": "milk toast man",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -14,6 +14,9 @@
     "env": "0.0.2",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
-    "pg": "^7.18.2"
+    "howler": "^2.2.0",
+    "pg": "^7.18.2",
+    "soundcloud-audio": "^1.4.0",
+    "uniq": "^1.0.1"
   }
 }
