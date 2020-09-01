@@ -1,4 +1,4 @@
-/*CSS Styling Code Here*/
+/*******************CSS Styling Code Here*******************/
 
 #headerLogo {
     border: 3px solid black;
@@ -114,6 +114,17 @@ iframe {
     border: 3px solid gray;
 }
 
+#aboutBox {
+    text-align: center;
+    background-color: rgb(172, 242, 255);
+    margin: 50px 200px 50px 200px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 24px;
+    padding: 50px 25px 50px 25px;
+    border-radius: 10px;
+    border: 3px solid gray;
+}
+
 .inputAreas {
     font-family: 'Overpass', sans-serif;
     padding: 10px 5px 10px 5px;
@@ -148,7 +159,9 @@ iframe {
     color: black;
 }
 
-/*Higher Resolution Screens*/
+
+/*******************Higher Resolution Screens*******************/
+
 @media screen and (min-width: 1800px) {    
     .parallaxPic {
         min-height: 450px;
@@ -170,7 +183,9 @@ iframe {
 }
 
 
-/*Mobile Devices*/
+
+/*******************Mobile Devices*******************/
+
 @media screen and (max-width: 1000px) {    
     .parallaxPic {
         min-height: 275px;
