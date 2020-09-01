@@ -115,6 +115,7 @@ iframe {
 }
 
 #aboutBox {
+    float: left;
     text-align: center;
     background-color: rgb(172, 242, 255);
     margin: 50px 200px 50px 200px;
@@ -123,6 +124,24 @@ iframe {
     padding: 50px 25px 50px 25px;
     border-radius: 10px;
     border: 3px solid gray;
+}
+
+#aboutPic {
+    float: right;
+}
+
+.about {
+    font-size: 20px;
+}
+
+#contactBtn {
+    text-decoration: none;
+    background-color: rgb(15, 15, 29);
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid gray;
 }
 
 .inputAreas {
