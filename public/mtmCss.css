@@ -101,6 +101,7 @@ iframe {
     background-image: url("./pics/Evergreen Blues.jpg");
     padding: 25px 0px 25px 0px;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #contactInfo {
@@ -114,20 +115,24 @@ iframe {
     border: 3px solid gray;
 }
 
+#aboutPic {
+    float: right;
+    height: 518px;
+    overflow: auto;
+    margin: 0px 25px 10px 0px;
+}
+
 #aboutBox {
-    float: left;
-    text-align: center;
-    background-color: rgb(172, 242, 255);
-    margin: 50px 200px 50px 200px;
-    font-family: 'Overpass', sans-serif;
-    font-size: 24px;
-    padding: 50px 25px 50px 25px;
-    border-radius: 10px;
+    margin: 25px 45% 25px 10px;
     border: 3px solid gray;
 }
 
-#aboutPic {
-    float: right;
+#about {
+    font-size: 20px;
+    background-color: rgb(172, 242, 255);
+    padding: 50px 100px 50px 50px;
+    font-family: 'Didact Gothic', sans-serif;
+    /* text-shadow: 5px 5px 10px rgb(75, 75, 75); */
 }
 
 .about {
@@ -181,70 +186,74 @@ iframe {
 
 /*******************Higher Resolution Screens*******************/
 
-@media screen and (min-width: 1800px) {    
+@media screen and (min-width: 1800px) {
     .parallaxPic {
         min-height: 450px;
     }
-
     .caption {
         top: 50%;
     }
-
     #quotePic {
         float: left;
         height: 600px;
         overflow: auto;
     }
-
     #quoteText {
         padding: 150px 100px 320px 1000px;
+    }
+    #aboutPic {
+        float: right;
+        height: 845px;
+        overflow: auto;
+        margin-right: 25px;
+    }
+    #aboutBox {
+        margin: 25px 50% 25px 10px;
+    }
+    #about {
+        font-size: 32px;
+        background-color: rgb(172, 242, 255);
+        padding: 50px 100px 50px 50px;
+        font-family: 'Didact Gothic', sans-serif;
+        /* text-shadow: 5px 5px 10px rgb(75, 75, 75); */
     }
 }
 
 
-
 /*******************Mobile Devices*******************/
 
-@media screen and (max-width: 1000px) {    
+@media screen and (max-width: 1000px) {
     .parallaxPic {
         min-height: 275px;
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     .caption {
         top: 50%;
         text-align: center;
     }
-
     .caption span.title {
         padding: 10px;
         margin-left: 5px;
     }
-    
     .caption span.sub-title {
         padding: 15px;
         margin-left: 10px;
     }
-
     #quotePic {
         float: left;
         width: 100%;
         overflow: auto;
     }
-
     #quoteText {
         padding: 350px 100px 100px 100px;
     }
-
     #contactInfo {
         margin: 50px 10px 50px 10px;
         padding: 10px 25px 10px 25px;
     }
-    
     .inputAreas {
         size: 25;
     }
-    
 }
